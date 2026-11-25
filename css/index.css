@@ -1,0 +1,49 @@
+body {
+  background: linear-gradient(to bottom, blue, purple);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  width: 30%;
+}
+.container {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+  flex-direction: column;
+  /* width: 70%; */
+}
+
+label {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+input {
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 95%;
+  padding: 8px 0px 8px 0px;
+}
+#last input {
+  margin-bottom: 4px;
+}
+
+.labin {
+  text-align: left;
+}
+
+.forgot {
+  margin-bottom: 20px;
+}
+.buttonsubmit input {
+  background: linear-gradient(to right, blue, purple);
+  color: white;
+}
